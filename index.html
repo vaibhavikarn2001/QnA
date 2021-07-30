@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QnA</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/7.19.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lobster+Two&family=Monoton&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Monoton&display=swap" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+</head>
+<body>
+	<div >
+	
+		<div style="height:100%;" class="row">
+		  <div class="col-lg-6" >
+		<img id="img" style="border-radius: 100px; position:absolute; margin-top: 10%;" class="img-responsive" src="teacher-with-student-concept-vector-26196765.jpg">
+		
+
+		  </div>
+		  <div id="mydiv" style="height:100%;" class="col-lg-6">
+		    <b><h1 class="header">	
+			QnA	</b>
+	
+           </h1>
+           
+		   <div class="col-lg-6  login_div"><h3 >Unhesitatingly solve your doubts</h3>
+	
+	        <br>
+			
+	
+			<h4 >Join QnA today</h4>
+			<br>
+			
+			<div>
+			  <label >Email Address:</label>
+			 <input type="text" id="email_field" class="form-control" placeholder="Email">
+			
+			 <label >Password:</label>
+			 <input type="password" id="password" class="form-control" placeholder="Put your password">
+			
+	         <br>
+			<button id="login_button" class="btn btn-primary" onclick="login()">Log in</button>
+				 <h4 onclick="pwreset()">Forgot Password?</h4>
+			<h3 id="status"></h3>
+		<span><input style="color:black; font-weight:bold; background-color:snow; font-family:'Cinzel',serif;"type="checkbox" class="checkbox"><label id="checkbox"></label></span>	
+				<br>
+			<h3><a href="signup.html">Do not have an account ?<u>Signup <span class="glyphicon glyphicon-signup"></span></u> </a></h2>
+
+		    </div>
+		</div>
+			
+		</div>
+    </div>
+			 
+</body>
+</html>
